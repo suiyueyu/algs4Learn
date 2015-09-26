@@ -2,43 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42732cdf-44c6-41f8-9f02-68efe503f530" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Example.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Insertion_alg_2_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Merge_alg_2_4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Quick_alg_2_5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Selection_alg_2_1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Shell_alg_2_3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/SortCompare.java" />
-      <change type="DELETED" beforePath="C:\workspace\algs4Learn\out\production\algs4\me\suiyueyu\algs4\sec1\123.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/BinaryIn.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/BinaryIn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/BinaryOut.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/BinaryOut.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/BinarySearch.class" afterPath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/BinarySearch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/BinaryStdIn.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/BinaryStdIn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/BinaryStdOut.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/BinaryStdOut.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/Draw.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/Draw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/DrawListener.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/DrawListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/exercise/Ex1_3.class" afterPath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/exercise/Ex1_3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/exercise/Ex1_3_4.class" afterPath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/exercise/Ex1_3_4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/FixedCapacityStack.class" afterPath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/FixedCapacityStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/In.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/In.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/Main.class" afterPath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/Out.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/Out.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/Picture.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/Picture.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/ResizingArraysStack$ReverseArrayIterator.class" afterPath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/ResizingArraysStack$ReverseArrayIterator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/ResizingArraysStack.class" afterPath="$PROJECT_DIR$/out/production/algs4/me/suiyueyu/algs4/sec1/ResizingArraysStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/StdArrayIO.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/StdArrayIO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/StdAudio.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/StdAudio.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/StdDraw.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/StdDraw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/StdIn.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/StdIn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/StdInTest.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/StdInTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/StdOut.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/StdOut.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/StdRandom.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/StdRandom.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/StdStats.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/StdStats.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/Stopwatch.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/Stopwatch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/Test.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/test/Test.class" afterPath="$PROJECT_DIR$/out/production/algs4/test/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algs4/stdlib/UnicodeTest.class" afterPath="$PROJECT_DIR$/out/production/algs4/stdlib/UnicodeTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/Ex_2_4_22.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/Ex_2_4_24.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/MaxPQ_algs_2_6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/model/Transaction.java" />
+      <change type="DELETED" beforePath="F:\SVN\algs4Learn\src\me\suiyueyu\algs4\sec2\MaxPQ_algs_2_4_1.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f2c8df9d-a869-4ee9-ae7d-7ce3b110a32b" name="Failed commit: Default" comment="section 1，不过没做完" />
@@ -71,21 +40,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Merge_alg_2_4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Merge_alg_2_4.java">
+      <file leaf-file-name="Ex_2_4_22.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/Ex_2_4_22.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1560">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1764">
+              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quick_alg_2_5.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Quick_alg_2_5.java">
+      <file leaf-file-name="Ex_2_4_24.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/Ex_2_4_24.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7805714" vertical-offset="301" max-vertical-offset="1200">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bag_alg_1_4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/Bag_alg_1_4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3556582" vertical-offset="252" max-vertical-offset="1288">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResizingArraysStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/ResizingArraysStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="3052">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/model/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="756">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -133,6 +135,11 @@
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Shell_alg_2_3.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Merge_alg_2_4.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Quick_alg_2_5.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/MaxPQ_algs_2_4_1.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/model/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/MaxPQ_algs_2_6.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/Ex_2_4_22.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/Ex_2_4_24.java" />
       </list>
     </option>
   </component>
@@ -140,10 +147,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -170,7 +177,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,9 +249,80 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sec2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exrecise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sec1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -498,6 +575,7 @@
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
@@ -662,6 +740,9 @@
       <workItem from="1438936860933" duration="6718000" />
       <workItem from="1439284664604" duration="2071000" />
       <workItem from="1439367515039" duration="3316000" />
+      <workItem from="1442474727728" duration="5892000" />
+      <workItem from="1442805235522" duration="2750000" />
+      <workItem from="1443054652085" duration="4042000" />
     </task>
     <task id="LOCAL-00001" summary="section 1，不过没做完">
       <created>1438939077878</created>
@@ -673,7 +754,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59350000" />
+    <option name="totallyTimeSpent" value="72034000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -696,7 +777,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -711,7 +792,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23745997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20537898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -727,6 +808,35 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3403315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3403315" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31712708" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3403315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42051283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -757,34 +867,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/FixedCapacityStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1288">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="588">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="1456">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/ResizingArraysStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="2996">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3_4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="1540">
@@ -925,13 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/ResizingArraysStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2283" max-vertical-offset="3136">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stdlib/StdIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="9800">
@@ -1009,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/Bag_alg_1_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53979236" vertical-offset="72" max-vertical-offset="1200">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ListExercise.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
@@ -1051,18 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1128">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stdlib/BinaryIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3469387" vertical-offset="0" max-vertical-offset="7920">
@@ -1074,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="720">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,9 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1680">
           <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="816">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,15 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="864">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Merge_alg_2_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1560">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,15 +1158,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71428573" vertical-offset="6531" max-vertical-offset="8856">
           <caret line="301" column="9" selection-start-line="301" selection-start-column="9" selection-end-line="301" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/model/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/ResizingArraysStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="3052">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Merge_alg_2_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6057348" vertical-offset="0" max-vertical-offset="1820">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Quick_alg_2_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7805714" vertical-offset="301" max-vertical-offset="1200">
+        <state vertical-scroll-proportion="0.7311828" vertical-offset="536" max-vertical-offset="1400">
           <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9032258" vertical-offset="336" max-vertical-offset="1260">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/MaxPQ_algs_2_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5550511" vertical-offset="127" max-vertical-offset="1764">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/Ex_2_4_22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1764">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/Ex_2_4_24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/Bag_alg_1_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3556582" vertical-offset="252" max-vertical-offset="1288">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1186,6 +1296,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
