@@ -8,12 +8,12 @@ import java.util.Queue;
 /**
  * Created by yzcc on 2016/3/7.
  */
-public class BinarySearchST<Key extends Comparable<Key>, Value> {
+public class BinarySearchST_algs_3_2<Key extends Comparable<Key>, Value> {
     private Key[] keys;
     private Value[] values;
     private int N;
 
-    public BinarySearchST(int capacity) {
+    public BinarySearchST_algs_3_2(int capacity) {
         keys = (Key[]) new Comparable[capacity];
         values = (Value[]) new Object[capacity];
     }
@@ -22,6 +22,9 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
         return N;
     }
 
+    public boolean isEmpty() {
+        return size() == 0;
+    }
     public Value get(Key key) {
         if (isEmpty()) {
             return null;
@@ -78,16 +81,43 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
         return keys[k];
     }
 
-    public Key floor(Key key);
+    /**
+     * floor 小于等于key的最大键
+     *
+     * @param key 查找的Key
+     * @return keys[pos] 查找到的keys的位置
+     */
+    public Key floor(Key key) {
+        int rank = rank(key);
+        if (isEmpty()) {
+            return null;
+        } else {
+            if (contains(keys[rank])) {
+                return keys[rank];
+            }
+            int pos = (rank - 1 + N) % N;
+            return keys[pos];
+        }
+    }
 
-
+    /**
+     * ceiling 大于等于key的最小键
+     *
+     * @param key 查找的key
+     * @return Key 最小键
+     */
     public Key ceiling(Key key) {
         int i = rank(key);
         return keys[i];
     }
 
+    public boolean contains(Key key) {
+        return get(key) != null;
+    }
 
-    public delete(int k);
+    public void delete(Key key) {
+        put(key, null);
+    }
 
     public Iterable<Key> keys(Key lo, Key hi) {
         Queue_alg_1_3<Key> q = new Queue_alg_1_3<Key>();
@@ -99,6 +129,10 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
             q.enqueue(keys[rank(hi)]);
         }
         return q;
-
     }
+
+    Iterable<Key> keys() {
+        return keys(min(), max());
+    }
+
 }
