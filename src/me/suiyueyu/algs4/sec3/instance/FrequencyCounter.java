@@ -1,6 +1,8 @@
 package me.suiyueyu.algs4.sec3.instance;
 
 import me.suiyueyu.algs4.sec3.SequentialSearchST_algs_3_1;
+import me.suiyueyu.algs4.sec3.exercise.ArrayST_3_1_2;
+import me.suiyueyu.algs4.sec3.exercise.OrderedSequentialSearchST_3_1_3;
 import stdlib.StdIn;
 import stdlib.StdOut;
 
@@ -9,8 +11,12 @@ import stdlib.StdOut;
  */
 public class FrequencyCounter {
     public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("no argument");
+            return;
+        }
         int minlen = Integer.parseInt(args[0]);
-        SequentialSearchST_algs_3_1<String, Integer> st = new SequentialSearchST_algs_3_1<String, Integer>();
+        ArrayST_3_1_2<String, Integer> st = new ArrayST_3_1_2<String, Integer>();
         while (!StdIn.isEmpty()) {
             String word = StdIn.readString();
             if (word.length() < minlen) {
@@ -32,6 +38,15 @@ public class FrequencyCounter {
             }
         }
         StdOut.println(max + " " + st.get(max));
+
+//        for (String word : st.keys()){
+//            System.out.print(word + "  ");
+//        }
+//        System.out.println();
+//        for (Integer word : st.vals()){
+//            System.out.print(word + "  ");
+//        }
+//        System.out.println();
     }
 
 }
