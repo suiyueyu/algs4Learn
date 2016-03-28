@@ -28,7 +28,7 @@ public class OrderedSequentialSearchST_3_1_3<Key extends Comparable<Key>, Value>
         Node rankNode = jumpTo(i);
 
         // 已经存在key，更新val
-        if ((i < N) && rankNode.key.compareTo(key) == 0) {
+        if ((i < N) && rankNode.key.equals(key)) {
             rankNode.val = val;
             return;
         }
@@ -37,6 +37,7 @@ public class OrderedSequentialSearchST_3_1_3<Key extends Comparable<Key>, Value>
         if (i == 0) {//应该插入到头部
             Node node = new Node(key, val, first);
             first = node;
+            N++;
         } else {
             Node parent = jumpTo(i - 1);
             Node node = new Node(key, val, rankNode);
@@ -47,11 +48,14 @@ public class OrderedSequentialSearchST_3_1_3<Key extends Comparable<Key>, Value>
 
     public Value get(Key key) {
         if (isEmpty()) {
+            // System.out.println("empty");
             return null;
         }
         int i = rank(key);
+
+
         Node rankNode = jumpTo(i);
-        if (i < N && (rankNode.key.compareTo(key) == 0)) {
+        if (i < N && (rankNode.key.equals(key))) {
             return rankNode.val;
         } else {
             return null;
@@ -62,7 +66,7 @@ public class OrderedSequentialSearchST_3_1_3<Key extends Comparable<Key>, Value>
 
     public void delete(Key key) {
         int rank = rank(key);
-        Node parent = jumpTo(rank - 1);
+        Node parent = jumpTo(rank - 2);
         Node nodeToDel = parent.next;
         parent.next = nodeToDel.next;
         nodeToDel = null;
@@ -74,7 +78,7 @@ public class OrderedSequentialSearchST_3_1_3<Key extends Comparable<Key>, Value>
 
     public boolean contains(Key key) {
         for (Node x = first; x != null; x = x.next) {
-            if (x.key.compareTo(key) == 0) {
+            if (x.key.equals(key)) {
                 return true;
             }
         }
@@ -124,7 +128,7 @@ public class OrderedSequentialSearchST_3_1_3<Key extends Comparable<Key>, Value>
         int rank = 0;
         for (Node x = first; x != null; x = x.next, rank++) {
             // 第一个比key大的键
-            if (x.key.compareTo(key) > 0) {
+            if (x.key.compareTo(key) >= 0) {
                 break;
             }
         }
@@ -157,5 +161,35 @@ public class OrderedSequentialSearchST_3_1_3<Key extends Comparable<Key>, Value>
             q.enqueue(x.key);
         }
         return q;
+    }
+
+    public Iterable<Value> vals() {
+        Queue_alg_1_3<Value> q = new Queue_alg_1_3<Value>();
+
+        for (Node x = first; x != null; x = x.next) {
+            q.enqueue(x.val);
+        }
+        return q;
+    }
+
+    public static void main(String[] args) {
+        OrderedSequentialSearchST_3_1_3<String, Integer> st = new OrderedSequentialSearchST_3_1_3<String, Integer>();
+        st.put("a", 1);
+        st.put("b", 2);
+        st.put("d", 4);
+        st.put("c", 3);
+        st.put("c", 5);
+
+        st.get("c");
+        for (String s : st.keys()) {
+            System.out.print(s + "  ");
+        }
+        System.out.println();
+        for (Integer s : st.vals()) {
+            System.out.print(s + "  ");
+        }
+        System.out.println();
+
+
     }
 }

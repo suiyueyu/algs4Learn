@@ -16,7 +16,7 @@ public class FrequencyCounter {
             return;
         }
         int minlen = Integer.parseInt(args[0]);
-        ArrayST_3_1_2<String, Integer> st = new ArrayST_3_1_2<String, Integer>();
+        OrderedSequentialSearchST_3_1_3<String, Integer> st = new OrderedSequentialSearchST_3_1_3<String, Integer>();
         while (!StdIn.isEmpty()) {
             String word = StdIn.readString();
             if (word.length() < minlen) {
