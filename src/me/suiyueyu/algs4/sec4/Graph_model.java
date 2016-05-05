@@ -13,7 +13,7 @@ public class Graph_model {
 
     public Graph_model(int V) {
         this.V = V;
-        this.E = E;
+        this.E = 0;
         adj = (Bag_alg_1_4<Integer>[]) new Bag_alg_1_4[V];
         for (int v = 0; v < V; v++) {
             adj[v] = new Bag_alg_1_4<Integer>();

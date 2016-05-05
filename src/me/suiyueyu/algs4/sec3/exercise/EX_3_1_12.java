@@ -11,7 +11,8 @@ import me.suiyueyu.algs4.sec2.Merge_alg_2_4;
  * @author yzcc
  */
 public class EX_3_1_12<Key extends Comparable<Key>, Value> {
-    public class Item implements Comparable<Item> {
+
+    private class Item implements Comparable<Item> {
         Key key;
         Value val;
 
