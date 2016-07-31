@@ -45,4 +45,15 @@ public class WeightedQuickUnionUF_alg_1_5 {
         }
         count --;
     }
+
+    /**
+     * Ex_4_1_8 中要求对UF类进行拓展，要不然拿不到private的sz参数
+     * 破坏了类的封装
+     *
+     * @param i
+     * @return sz[i]
+     */
+    public int size(int i) {
+        return sz[i];
+    }
 }

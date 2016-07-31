@@ -12,7 +12,6 @@ import stdlib.In;
  * 4.1.5 修改Graph，不允许存在平行边和自环
  */
 public class Ex_Graph_model {
-    // TODO: 2016/5/5  回寝室了没写
     private final int V;
     private int E;
     private Bag_alg_1_4<Integer>[] adj;
@@ -43,7 +42,7 @@ public class Ex_Graph_model {
      * 使用一个没用的类来表明本图不允许自环
      *
      * @param in                     输入流
-     * @param isGraphWithoutSelfLoop 只是一个flag
+     * @param isGraphWithoutSelfLoop 只是一个flag区别构造函数，代码中并未使用
      */
     public Ex_Graph_model(In in, boolean isGraphWithoutSelfLoop) {
         this(in.readInt());
@@ -141,6 +140,18 @@ public class Ex_Graph_model {
             }
         }
         return false;
+    }
+
+    public String toString() {
+        String s = V + " vertices, " + E + " edges \n";
+        for (int v = 0; v < V; v++) {
+            s += v + ": ";
+            for (int w : adj(v)) {
+                s += w + " ";
+            }
+            s += "\n";
+        }
+        return s;
     }
 
     /**

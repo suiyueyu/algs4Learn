@@ -32,31 +32,6 @@ public class Main {
 //        }
 
 //        String cmd = "ping www.baidu.com";
-        String cmd = "cmd.exe /c start C:\\Users\\yzcc\\Desktop\\中亚国家.xlsx";
-
-        Runtime run = Runtime.getRuntime();
-        try {
-            Process p = run.exec(cmd);
-            BufferedInputStream in = new BufferedInputStream(p.getInputStream());
-            BufferedReader inBr = new BufferedReader(new InputStreamReader(in));
-
-            String lineStr;
-
-            while ((lineStr = inBr.readLine()) != null) {
-                System.out.println(lineStr);
-
-                if (p.waitFor() != 0) {
-                    if (p.exitValue() == 1) {
-                        System.out.println("命令运行失败");
-                    }
-                }
-
-            }
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 
 
     }
