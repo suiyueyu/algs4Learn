@@ -227,9 +227,37 @@ public class Ex_1_1 {
         BinarySearch.solve();
     }
 
+    /**
+     * 见BinarySearch
+     */
+    public static void ex_1_1_23() {
+    }
+
+    /**
+     * 给出使用欧几里得算法计算105和24的最大公约数的过程中得到的一系列p和q的值。
+     * 拓展该算法中的代码得到一个程序Euclid，从命令行接受两个参数，计算它们的最大公约数并
+     * 打印出每次调用递归方法时的两个参数。使用你的程序计算1 111 111 和1 234 567的最大公约数。
+     */
+    public static int euclid_Ex_1_1_24(int p, int q) {
+        System.out.println("p : " + p + ", q : " + q);
+        if (q == 0) {
+            System.out.println("the gcd is " + p);
+            return p;
+        }
+        int r = p % q;
+        return euclid_Ex_1_1_24(q, r);
+    }
+
+    private static int gcd(int p, int q) {
+        if (q == 0) {
+            return p;
+        }
+        int r = p % q;
+        return gcd(q, r);
+    }
 
     public static void main(String[] args) {
-        ex_1_1_22();
+        euclid_Ex_1_1_24(1111111, 1234567);
 
     }
 
