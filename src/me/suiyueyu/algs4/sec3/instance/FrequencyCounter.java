@@ -1,10 +1,11 @@
 package me.suiyueyu.algs4.sec3.instance;
 
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 import me.suiyueyu.algs4.sec3.SequentialSearchST_algs_3_1;
 import me.suiyueyu.algs4.sec3.exercise.ArrayST_3_1_2;
 import me.suiyueyu.algs4.sec3.exercise.OrderedSequentialSearchST_3_1_3;
-import stdlib.StdIn;
-import stdlib.StdOut;
+
 
 /**
  * Created by yzcc on 2016/3/8.

@@ -1,8 +1,9 @@
 package me.suiyueyu.algs4.sec4;
 
+import edu.princeton.cs.algs4.In;
 import me.suiyueyu.algs4.sec3.BinarySearchST_algs_3_2;
 import me.suiyueyu.algs4.sec3.SequentialSearchST_algs_3_1;
-import stdlib.In;
+
 
 /**
  * Created by yzcc on 2016/5/5.

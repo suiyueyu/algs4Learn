@@ -1,9 +1,9 @@
 
 package me.suiyueyu.algs4.sec1;
 
-import stdlib.In;
-import stdlib.StdIn;
-import stdlib.StdOut;
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
 

@@ -1,10 +1,11 @@
 package me.suiyueyu.algs4.sec4.instance;
 
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdOut;
 import me.suiyueyu.algs4.sec1.Bag_alg_1_4;
 import me.suiyueyu.algs4.sec4.CC;
 import me.suiyueyu.algs4.sec4.Graph_model;
-import stdlib.In;
-import stdlib.StdOut;
+
 
 /**
  * Created by yzcc on 2016/4/28.

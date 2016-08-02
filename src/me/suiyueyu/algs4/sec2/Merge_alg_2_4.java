@@ -1,6 +1,7 @@
 package me.suiyueyu.algs4.sec2;
 
-import stdlib.In;
+
+import edu.princeton.cs.algs4.In;
 
 /**
  * Created by boge on 2015/8/11.

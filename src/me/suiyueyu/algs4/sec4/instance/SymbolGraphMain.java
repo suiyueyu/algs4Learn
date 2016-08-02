@@ -1,9 +1,9 @@
 package me.suiyueyu.algs4.sec4.instance;
 
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 import me.suiyueyu.algs4.sec4.Graph_model;
 import me.suiyueyu.algs4.sec4.SymbolGraph;
-import stdlib.StdIn;
-import stdlib.StdOut;
 
 /**
  * Created by yzcc on 2016/5/5.

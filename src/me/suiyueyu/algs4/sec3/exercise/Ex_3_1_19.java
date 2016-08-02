@@ -1,7 +1,7 @@
 package me.suiyueyu.algs4.sec3.exercise;
 
+import edu.princeton.cs.algs4.StdIn;
 import me.suiyueyu.algs4.sec1.Queue_alg_1_3;
-import stdlib.StdIn;
 
 /**
  * Created by yzcc on 2016/5/2.

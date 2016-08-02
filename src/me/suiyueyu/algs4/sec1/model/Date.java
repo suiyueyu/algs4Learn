@@ -13,6 +13,19 @@ public class Date {
         this.month = m;
         this.day = d;
     }
+    // ex 1.2.19
+
+    /**
+     * 输入形如5/22/1939，构造
+     *
+     * @param date
+     */
+    public Date(String date) {
+        String[] fields = date.split("/");
+        month = Integer.parseInt(fields[0]);
+        day = Integer.parseInt(fields[1]);
+        year = Integer.parseInt(fields[2]);
+    }
 
     public int month() {
         return month;

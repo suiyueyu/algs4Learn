@@ -1,6 +1,7 @@
 package me.suiyueyu.algs4.sec2;
 
-import stdlib.StdRandom;
+import edu.princeton.cs.algs4.StdRandom;
+
 
 /**
  * Created by boge on 2015/8/12.

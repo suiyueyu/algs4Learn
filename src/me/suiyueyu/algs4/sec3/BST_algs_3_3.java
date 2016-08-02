@@ -1,7 +1,8 @@
 package me.suiyueyu.algs4.sec3;
 
+import edu.princeton.cs.algs4.StdOut;
 import me.suiyueyu.algs4.sec1.Queue_alg_1_3;
-import stdlib.StdOut;
+
 
 /**
  * Created by yzcc on 2016/4/19.

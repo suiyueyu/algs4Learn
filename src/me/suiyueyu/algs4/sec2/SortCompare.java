@@ -1,8 +1,9 @@
 package me.suiyueyu.algs4.sec2;
 
-import stdlib.StdOut;
-import stdlib.StdRandom;
-import stdlib.Stopwatch;
+
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+import edu.princeton.cs.algs4.Stopwatch;
 
 /**
  * Created by boge on 2015/8/7.
