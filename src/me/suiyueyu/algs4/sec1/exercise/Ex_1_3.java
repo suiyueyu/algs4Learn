@@ -342,9 +342,99 @@ public class Ex_1_3 {
         System.out.println(queue.dequeue());
     }
 
-    public static void main(String[] args) {
-        ex_1_3_15(2);
+    /**
+     * 1.3.19 给出一段代码，删除链表的尾节点，其中链表的首节点为first
+     * 1.3.20 编写一个方法delete()，接受一个int参数k，删除链表的第k个元素(如果它存在的话)
+     * 1.3.21 编写一个方法find()， 接受一个链表和一个字符串作为参数。
+     * 如果链表中某个节点的item的值是key，返回true，否则返回false
+     */
+    public static void ex_1_3_20() {
+        ExList<String> list = new ExList<>();
+        list.addToHead("a");
+        list.addToHead("b");
+        list.addToHead("c");
+
+        list.print();
+//        list.deleteLast();
+        System.out.println(list.delete(3));
+        System.out.println(list.delete(1));
+        System.out.println(list.delete(2));
+
+        list.print();
+
     }
+
+    /**
+     * 1.3.26 删除链表里面所有item是key的节点
+     */
+    public static void ex_1_3_26() {
+        ExList<String> list = new ExList<>();
+        list.addToHead("s");
+        list.addToHead("c");
+        list.addToHead("s");
+        list.addToHead("b");
+        list.addToHead("a");
+        list.addToHead("s");
+        list.addToHead("s");
+        list.addToHead("s");
+        list.remove("s");
+
+        list.print();
+    }
+
+    /**
+     * 1.3.27
+     * 接收一条链表的首节点作为参数，返回链表中最大的节点的值。
+     * 假设所有键均为正整数，如果链表为空则返回0.
+     * 1.3.28
+     */
+    public static void ex_1_3_27() {
+
+    }
+
+    /**
+     * 接收一条链表的首节点作为参数，返回链表中最大的节点的值。
+     * 假设所有键均为正整数，如果链表为空则返回0.
+     *
+     * @return
+     * @warning 所有键都得是正整数
+     */
+    public int max(IntegerNode first) {
+        if (first == null) {
+            return 0;
+        } else {
+            int maxVal = first.val;
+            IntegerNode curr = first.next;
+            for (; curr != null; curr = curr.next) {
+                if (curr.val > maxVal) {
+                    maxVal = curr.val;
+                }
+            }
+            return maxVal;
+        }
+    }
+
+    /**
+     * 1.3.28 用递归的方法解答上一道练习
+     *
+     * @param curr 当前节点
+     * @return 当前节点为头的链表的最大值
+     */
+    public int max_RecursionVersion(IntegerNode curr) {
+        if (curr == null) {
+            return 0;
+        }
+        return Math.max(curr.val, max_RecursionVersion(curr.next));
+    }
+
+    private class IntegerNode {
+        int val;
+        IntegerNode next;
+    }
+    public static void main(String[] args) {
+        ex_1_3_26();
+    }
+
 }
 
 class Stack_ex_1_3_12<Item> implements Iterable<Item> {
@@ -513,3 +603,247 @@ class ResizingArrayQueueOfStrings implements Iterable<String> {
         System.out.println();
     }
 }
+
+class ExList<Item> implements Iterable<Item> {
+
+
+    private class Node {
+        Item item;
+        Node next;
+
+        public String toString() {
+            return item + "";
+        }
+    }
+
+    private Node first;
+
+    private int N;
+
+    public boolean isEmpty() {
+        return N == 0;
+    }
+
+    public int size() {
+        return N;
+    }
+
+    public void addToHead(Item item) {
+        Node oldFirst = first;
+        first = new Node();
+        first.item = item;
+        first.next = oldFirst;
+
+        N++;
+    }
+
+    public void deleteHead() {
+        first = first.next;
+        N--;
+    }
+
+    public void print() {
+        System.out.println("the N is " + N);
+        for (Node node = first; node != null; node = node.next) {
+            System.out.print(node.item + " -> ");
+        }
+        if (isEmpty()) {
+            System.out.print("[ empty ]");
+        }
+        System.out.println();
+    }
+
+    /**
+     * 1.3.19 删除链表的尾节点
+     */
+    public void deleteLast() {
+        if (first != null) {
+            if (first.next == null) {
+                // 单节点
+                first = null;
+            } else {
+                Node curr = first.next;
+                Node curr_parent = first;
+
+                for (; curr.next != null;
+                     curr = curr.next, curr_parent = curr_parent.next) {
+                }
+                // curr.next = null
+                // curr是最后一个节点
+                // curr_parent是它之前的那个节点
+                curr_parent.next = null;
+                curr = null;// 置空
+            }
+            N--;
+        }
+
+    }
+
+    /**
+     * 1.3.20 编写一个方法，delete()，接受一个int参数k
+     * 删除链表的第k个节点
+     * 如果它存在的话
+     *
+     * @param k 删除的位置
+     * @return 删除是否成功
+     */
+    public boolean delete(int k) {
+        if (k < 0) {
+            return false;
+        }
+        if (k == 1) {
+            deleteHead();
+            return true;
+        }
+        Node curr = jumpTo(k - 1 - 1);
+        if (curr == null || curr.next == null) {
+            return false;//删除失败
+        }
+        Node tmp = curr.next;
+        curr.next = curr.next.next;
+        tmp = null;
+        N--;
+        return true;
+    }
+
+    /**
+     * 去链表的第k+1个位置
+     * list[k]
+     *
+     * @param k
+     * @return 跳的到就返回节点，跳不到就返回null
+     */
+    public Node jumpTo(int k) {
+        Node curr = first;
+        if (k >= N) {
+            return null;
+        }
+        for (int i = 0; i < k && curr != null; i++) {
+            curr = curr.next;
+        }
+//            if (curr == null) return null;
+        return curr;
+    }
+
+    /**
+     * 1.3.21 编写一个方法find(), 接收一条链表和一个字符串key作为参数
+     * 如果链表中的某个节点的item域的值为key，则方法返回true，否则返回false
+     *
+     * @param key
+     * @return
+     */
+    public boolean find(String key) {
+        if (!isEmpty()) {
+            Node node = first;
+            for (; node != null; node = node.next) {
+                if (node.item.equals(key)) {
+                    return true;
+                }
+            }
+            return false;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * 1.3.24 编写一个方法removeAfter 接受一个链表节点作为参数
+     * 并删除该节点的后续结点
+     * 如果参数节点或参数节点的后续结点为空则什么也不做
+     *
+     * @param node 节点
+     */
+    public void removeAfter(Node node) {
+        if (node == null || node.next == null) {
+            // 什么都不做
+        } else {
+            Node next = node.next;
+            node.next = next.next;
+            next = null;
+            N--;
+        }
+    }
+
+    /**
+     * 1.2.25接受两个链表节点作为参数，将第二个节点插入链表，
+     * 并使之成为第一个节点的后续结点（如果两个参数为空则什么都不做）。
+     *
+     * @param node
+     * @param insertNode
+     */
+    public void insertAfter(Node node, Node insertNode) {
+        if (node == null || insertNode == null) {
+            // do nothing
+        } else {
+            insertNode.next = node.next;
+            node.next = insertNode;
+            N++;
+        }
+
+    }
+
+    /**
+     * 1.3.26 编写一个方法remove(), 接收一条链表和一个字符串key作为参数
+     * 将第二个节点插入链表并使之成为第一个节点的后续结点。
+     * (如果两个参数为空则什么也不做)
+     * <p>
+     * 这里为了方便没做成static的函数，下一组练习把class全部拿出来
+     *
+     * @param key
+     */
+    public void remove(String key) {
+        if (key == null) {
+
+        } else {
+            if (!isEmpty()) {
+
+                while (first.item.equals(key)) {
+                    first = first.next;
+                    N--;
+                    // the first needs to be del
+                }
+                Node curr = first.next;
+                Node curr_parent = first;
+
+                for (; curr != null; ) {
+                    if (curr.item.equals(key)) {
+                        // del curr
+                        curr_parent.next = curr.next;
+                        curr = curr_parent.next;
+                        N--;
+
+                    } else {
+                        curr = curr.next;
+                        curr_parent = curr_parent.next;
+                    }
+//                    curr = curr.next, curr_parent = curr_parent.next
+                }
+            } else {
+                // the list is empty
+            }
+        }
+    }
+
+
+    @Override
+    public Iterator<Item> iterator() {
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<Item> {
+        private Node curr = first;
+
+        @Override
+        public boolean hasNext() {
+            return curr == null;
+        }
+
+        @Override
+        public Item next() {
+            Item item = curr.item;
+            curr = curr.next;
+            return item;
+        }
+    }
+}
+
