@@ -431,6 +431,38 @@ public class Ex_1_3 {
         int val;
         IntegerNode next;
     }
+
+    public static void ex_1_3_30() {
+
+    }
+
+    private Node reverse(Node x) {
+        Node first = x;
+        Node reverse = null;
+        while (first != null) {
+            Node second = first.next;
+            first.next = reverse;
+            reverse = first;
+            first = second;
+        }
+        return reverse;
+    }
+
+    private Node reverse_RecursionVersion(Node first) {
+        if (first == null) return null;
+        if (first.next == null) return first;
+        Node second = first.next;
+        Node rest = reverse(second);
+        second.next = first;
+        first.next = null;
+        return rest;
+    }
+
+    private class Node<Item> {
+        Item item;
+        Node next;
+    }
+
     public static void main(String[] args) {
         ex_1_3_26();
     }

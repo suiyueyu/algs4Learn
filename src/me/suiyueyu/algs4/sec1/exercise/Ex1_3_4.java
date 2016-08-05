@@ -1,7 +1,6 @@
 package me.suiyueyu.algs4.sec1.exercise;
 
 import me.suiyueyu.algs4.sec1.ResizingArraysStack;
-import stdlib.StdIn;
 
 import java.util.Scanner;
 

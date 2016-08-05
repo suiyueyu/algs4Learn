@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a13b02d-c550-4977-b0c4-aff3fc46bbf8" name="Default" comment="20160803 ex_1_3 什么都没做，今天保持沉默...">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/QueueCycleList.java" />
+    <list default="true" id="2a13b02d-c550-4977-b0c4-aff3fc46bbf8" name="Default" comment="20160804 ex_1_3 链表练习&#10;环形链表里面的enqueue是错的">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/DoubleNodeList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/Steque.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3_4.java" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3_4.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex_1_3.java" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex_1_3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/QueueCycleList.java" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/QueueCycleList.java" />
     </list>
     <ignored path="algs4Learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,39 +39,79 @@
       <file leaf-file-name="Ex_1_3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex_1_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="834" column="0" selection-start-line="834" selection-start-column="0" selection-end-line="834" selection-end-column="0" />
+            <state relative-caret-position="508">
+              <caret line="460" column="5" selection-start-line="460" selection-start-column="5" selection-end-line="460" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#12638#12639#0" expanded="true" />
-                <element signature="e#12665#12666#0" expanded="true" />
                 <element signature="class#Stack_ex_1_3_12#0" expanded="false" />
                 <element signature="class#ResizingArrayQueueOfStrings#0" expanded="false" />
                 <element signature="class#ExList#0" expanded="false" />
-                <element signature="e#16375#16376#0" expanded="true" />
-                <element signature="e#16415#16416#0" expanded="true" />
-                <element signature="e#16496#16497#0" expanded="true" />
-                <element signature="e#16525#16526#0" expanded="true" />
-                <element signature="e#16548#16549#0" expanded="true" />
-                <element signature="e#16572#16573#0" expanded="true" />
-                <element signature="e#21194#21195#0" expanded="true" />
-                <element signature="e#21235#21236#0" expanded="true" />
-                <element signature="e#21381#21382#0" expanded="true" />
-                <element signature="e#21424#21425#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueCycleList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/QueueCycleList.java">
+      <file leaf-file-name="DoubleNodeList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/DoubleNodeList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1334">
+              <caret line="164" column="16" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
+              <folding>
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Steque.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/Steque.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="537">
-              <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueueCycleList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/QueueCycleList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3335">
+              <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
+              <folding>
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ex1_3_4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3_4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ex1_3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,9 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec3/exercise/Ex_3_1_22.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec4/Cycle.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec4/TwoColor.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec4/CC.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec4/exercise/Ex_4_1_3.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec4/exercise/Ex_4_1_3_Graph_model.java" />
@@ -150,10 +190,13 @@
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Example.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/Merge_alg_2_4.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/Stack.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex_1_3.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/model/QueueCycleList_Ex_1_3_29.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/QueueCycleList_Ex_1_3_29.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3_4.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/QueueCycleList.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex_1_3.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/Steque.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/DoubleNodeList.java" />
       </list>
     </option>
   </component>
@@ -201,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -328,12 +370,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Ex_1_3.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4Learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algs4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sec1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ex_1_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,22 +446,7 @@
       <recent name="G:\SVN\algs4Learn\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueCycleList">
-    <configuration default="false" name="TestAlgs4 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TestAlgs4" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algs4Learn" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.DoubleNodeList">
     <configuration default="false" name="TestAlgs4 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestAlgs4" />
@@ -452,6 +510,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="me.suiyueyu.algs4.sec1.exercise.ex_1_3.QueueCycleList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algs4Learn" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DoubleNodeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="me.suiyueyu.algs4.sec1.exercise.ex_1_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="me.suiyueyu.algs4.sec1.exercise.ex_1_3.DoubleNodeList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -866,19 +944,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestAlgs4 (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestAlgs4 (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Ex_1_2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Ex_1_3" />
-      <item index="4" class="java.lang.String" itemvalue="Application.QueueCycleList" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestAlgs4 (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Ex_1_2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Ex_1_3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.QueueCycleList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DoubleNodeList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.QueueCycleList" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Ex_1_3" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Ex_1_2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestAlgs4 (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestAlgs4 (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DoubleNodeList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.QueueCycleList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Ex_1_3" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Ex_1_2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestAlgs4 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -946,7 +1024,8 @@
       <workItem from="1470018282807" duration="13716000" />
       <workItem from="1470103259141" duration="21874000" />
       <workItem from="1470190431982" duration="22246000" />
-      <workItem from="1470294569805" duration="19017000" />
+      <workItem from="1470294569805" duration="19082000" />
+      <workItem from="1470365798357" duration="12413000" />
     </task>
     <task id="LOCAL-00001" summary="20160307 好久没写了...每天写一点">
       <created>1457352993417</created>
@@ -1053,11 +1132,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470235273107</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="20160804 ex_1_3 链表练习&#10;环形链表里面的enqueue是错的">
+      <created>1470321528879</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1470321528879</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232073000" />
+    <option name="totallyTimeSpent" value="244551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1156,7 +1242,8 @@
     <MESSAGE value="20160731 Ex  1_2 最后还没写完，明天过来写&#10;把新的edu.prinston.algs4.jar加入了，后面把Stdlib都去掉" />
     <MESSAGE value="20160802 ex_1_3 链表，栈，背包" />
     <MESSAGE value="20160803 ex_1_3 什么都没做，今天保持沉默..." />
-    <option name="LAST_COMMIT_MESSAGE" value="20160803 ex_1_3 什么都没做，今天保持沉默..." />
+    <MESSAGE value="20160804 ex_1_3 链表练习&#10;环形链表里面的enqueue是错的" />
+    <option name="LAST_COMMIT_MESSAGE" value="20160804 ex_1_3 链表练习&#10;环形链表里面的enqueue是错的" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1164,7 +1251,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="57" />
+      <option name="time" value="60" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1173,20 +1260,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec4/instance/TestSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec3/exercise/Ex_3_1_22.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1267,14 +1340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-742">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/UnsupportedOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
@@ -1298,19 +1363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#equals#0;class#Transaction#0" expanded="false" />
-            <element signature="method#compareTo#0;class#Transaction#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6206">
-          <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,8 +1410,8 @@
         <state relative-caret-position="447">
           <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1406,9 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1475,9 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1510,9 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1578,44 +1621,76 @@
         <state relative-caret-position="-846">
           <caret line="1250" column="22" selection-start-line="1250" selection-start-column="22" selection-end-line="1250" selection-end-column="22" />
           <folding>
-            <element signature="e#49043#49044#0" expanded="true" />
-            <element signature="e#49082#49083#0" expanded="true" />
+            <element signature="e#49043#49044#0" expanded="false" />
+            <element signature="e#49082#49083#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex1_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex_1_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="834" column="0" selection-start-line="834" selection-start-column="0" selection-end-line="834" selection-end-column="0" />
+        <state relative-caret-position="508">
+          <caret line="460" column="5" selection-start-line="460" selection-start-column="5" selection-end-line="460" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12638#12639#0" expanded="true" />
-            <element signature="e#12665#12666#0" expanded="true" />
             <element signature="class#Stack_ex_1_3_12#0" expanded="false" />
             <element signature="class#ResizingArrayQueueOfStrings#0" expanded="false" />
             <element signature="class#ExList#0" expanded="false" />
-            <element signature="e#16375#16376#0" expanded="true" />
-            <element signature="e#16415#16416#0" expanded="true" />
-            <element signature="e#16496#16497#0" expanded="true" />
-            <element signature="e#16525#16526#0" expanded="true" />
-            <element signature="e#16548#16549#0" expanded="true" />
-            <element signature="e#16572#16573#0" expanded="true" />
-            <element signature="e#21194#21195#0" expanded="true" />
-            <element signature="e#21235#21236#0" expanded="true" />
-            <element signature="e#21381#21382#0" expanded="true" />
-            <element signature="e#21424#21425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/Steque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/QueueCycleList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+        <state relative-caret-position="3335">
+          <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
           <folding>
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/DoubleNodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="164" column="16" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
           </folding>
         </state>
       </provider>

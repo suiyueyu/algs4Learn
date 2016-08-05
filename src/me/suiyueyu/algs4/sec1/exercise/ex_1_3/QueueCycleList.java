@@ -42,17 +42,14 @@ public class QueueCycleList<Item> {
             last.item = item;
             last.next = last;
         } else {
-            // todo 插错了，插到头了
-            // 要插到尾巴
-            Node curr = last.next;
-            for (; curr.next != last; curr = curr.next) {
-
-            }
-            curr.next = new Node();
-            curr.next.item = item;
-            curr.next.next = last;
-
+            Node first = last.next;
+            last.next = new Node();
+            last.next.item = item;
+            last.next.next = first;
+            last = last.next;
         }
+
+
     }
 
     public Item dequeue() {
@@ -82,7 +79,7 @@ public class QueueCycleList<Item> {
             // last 放到最后输出
             // 当然如果用toString，那么是last的时候，用 str = last + str就行
             if (last.next == last) {
-                System.out.println(" [ " + last.item + " ] ");
+                System.out.print(" [ " + last.item + " ] ");
             } else {
                 Node curr = last.next;
                 for (; curr != last; curr = curr.next) {
@@ -95,11 +92,31 @@ public class QueueCycleList<Item> {
         }
     }
 
+    /**
+     * [ a ]  [ b ]  [ c ]
+     * [ b ]  [ c ]
+     * [ c ]
+     * [ c ]  [ d ]
+     * [ d ]
+     * [ Empty ]
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         QueueCycleList<String> queue = new QueueCycleList<>();
         queue.enqueue("a");
         queue.enqueue("b");
         queue.enqueue("c");
+        queue.print();
+        queue.dequeue();
+        queue.print();
+        queue.dequeue();
+        queue.print();
+        queue.enqueue("d");
+        queue.print();
+        queue.dequeue();
+        queue.print();
+        queue.dequeue();
         queue.print();
     }
 }
