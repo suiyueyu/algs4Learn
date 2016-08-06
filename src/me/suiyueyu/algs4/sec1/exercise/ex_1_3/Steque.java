@@ -24,5 +24,52 @@ public class Steque<Item> {
         return N;
     }
 
+    /**
+     * 头插入
+     *
+     * @param item
+     */
+    public void push(Item item) {
+        if (isEmpty()) {
+            first = new Node();
+            first.item = item;
+        } else {
+            Node oldFirst = first;
+            first = new Node();
+            first.item = item;
+            first.next = oldFirst;
+        }
+        N++;
+    }
 
+    public Item pop() {
+        if (isEmpty()) {
+            return null;
+        } else {
+            Node oldFirst = first;
+            first = first.next;
+            N--;
+            return oldFirst.item;
+        }
+    }
+
+    public void enqueue(Item item) {
+        if (isEmpty()) {
+            // 空链表
+            // curr = first = null
+            first = new Node();
+            first.item = item;
+
+        } else {
+            Node curr = first;
+            for (int i = 0; i < N - 1; i++) {
+                curr = curr.next;
+            }
+
+            // 最后一个节点
+            curr.next = new Node();
+            curr.next.item = item;
+        }
+        N++;
+    }
 }

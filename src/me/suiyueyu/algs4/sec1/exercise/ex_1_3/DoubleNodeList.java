@@ -150,11 +150,11 @@ public class DoubleNodeList<Item> {
 
     /**
      * 在指定节点之前插入新节点，
-     *
+     * 空链表加一个：insertBefore(sth, 1);
      * @param position 第n个节点
      */
     public void insertBefore(Item item, int position) {
-        if (position > size()) {
+        if (position <= 0 || position > size()) {
             // do nothing
             throw new UnsupportedOperationException("the position is overflow the list");
         } else {
@@ -165,13 +165,77 @@ public class DoubleNodeList<Item> {
                 DoubleNode node = jumpTo(position - 1);// 跳到这个节点，现在有prev注意
                 DoubleNode prev_node = node.prev;
                 DoubleNode newNode = new DoubleNode();
+                newNode.item = item;
                 prev_node.next = newNode;
                 newNode.prev = prev_node;
                 newNode.next = node;
                 node.prev = newNode;
+
+                N++;
             }
-            N++;
+
         }
+    }
+
+    /**
+     * 在position后插入一个元素
+     *
+     * @param item
+     * @param position 第position个元素，0 < position <=size()
+     */
+    public void insertAfter(Item item, int position) {
+        if (position > size() || position <= 0) {
+            // do-nothing
+            throw new UnsupportedOperationException("the position is illegal ");
+        } else {
+            if (isEmpty()) {
+                // 这个时候只能position = 1
+                insertHead(item);
+            } else {
+                DoubleNode curr = jumpTo(position - 1);
+                // insert After this node
+                DoubleNode curr_next = curr.next;
+                curr.next = new DoubleNode();
+                curr.next.item = item;
+                curr.next.prev = curr;
+                curr.next.next = curr_next;
+                if (position != size()) {
+                    curr_next.prev = curr.next;
+
+                } else {
+                    //尾巴插入，null 没有prev
+                }
+                N++;
+            }
+        }
+    }
+
+    /**
+     * 删除指定位置的节点，第position位置的节点
+     *
+     * @param position
+     */
+    public void remove(int position) {
+        if (position <= 0 || position > size()) {
+            // do nothing
+            // 如果是空链表，那么一定进这里
+            throw new UnsupportedOperationException("the position is overflow");
+        } else {
+            if (position == 1) {
+                deleteHead();
+            } else if (position == size()) {
+                deleteTail();
+            } else {
+                // 被删除点
+                DoubleNode node = jumpTo(position - 1);
+                DoubleNode node_parent = node.prev;
+                DoubleNode node_son = node.next;
+                node_parent.next = node_son;
+                node_son.prev = node_parent;
+                N--;
+            }
+        }
+
     }
 
     public void print() {
@@ -192,11 +256,13 @@ public class DoubleNodeList<Item> {
         doubleNodeList.insertTail("b");
         doubleNodeList.insertTail("c");
         doubleNodeList.print();
-        doubleNodeList.insertHead("c");
+        doubleNodeList.remove(3);
         doubleNodeList.print();
-        doubleNodeList.deleteHead();
+        doubleNodeList.remove(2);
         doubleNodeList.print();
-        doubleNodeList.deleteTail();
+        doubleNodeList.remove(1);
         doubleNodeList.print();
+        doubleNodeList.remove(1);
+
     }
 }

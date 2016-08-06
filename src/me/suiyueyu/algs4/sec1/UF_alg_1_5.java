@@ -1,7 +1,5 @@
 package me.suiyueyu.algs4.sec1;
 
-import stdlib.StdIn;
-import stdlib.StdOut;
 
 /**
  * Created by boge on 2015/8/5.

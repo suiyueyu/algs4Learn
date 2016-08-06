@@ -1,8 +1,6 @@
 package me.suiyueyu.algs4.sec4.instance;
 
 import me.suiyueyu.algs4.sec4.Graph_model;
-import stdlib.In;
-import stdlib.StdOut;
 
 /**
  * Created by yzcc on 2016/4/20.
