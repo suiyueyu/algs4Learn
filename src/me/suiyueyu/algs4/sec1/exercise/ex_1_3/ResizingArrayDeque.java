@@ -61,6 +61,7 @@ public class ResizingArrayDeque<Item> implements Iterable<Item> {
             return null;
         } else {
             Item item = a[start];
+            a[start] = null;// 防止对象游离
             start = (start + 1) % a.length;
             N--;
             if (N == a.length / 4) {
@@ -75,6 +76,8 @@ public class ResizingArrayDeque<Item> implements Iterable<Item> {
             return null;
         } else {
             Item item = a[(start + N - 1) % a.length];
+            a[(start + N - 1) % a.length] = null;
+
             N = (N - 1 + a.length) % a.length;
 
             if (N == a.length / 4) {
