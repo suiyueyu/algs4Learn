@@ -40,6 +40,13 @@ public class Stack<Item> implements Iterable<Item> {
         return item;
     }
 
+
+    public Stack() {
+
+    }
+
+
+
     public Iterator<Item> iterator() {
         return new ListIterator();
     }
@@ -65,4 +72,5 @@ public class Stack<Item> implements Iterable<Item> {
     public Item peek() {
         return first.item;
     }
+
 }
