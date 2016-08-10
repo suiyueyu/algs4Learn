@@ -16,6 +16,8 @@ public class TwoSumFast {
         int N = a.length;
         int cnt = 0;
         for (int i = 0; i < N; i++) {
+            // 这里务必强调的是元素不重复
+            // 而且不存在 a[i] = 0;
             if (BinarySearch.rank(-a[i], a) > i) {
                 cnt++;
             }

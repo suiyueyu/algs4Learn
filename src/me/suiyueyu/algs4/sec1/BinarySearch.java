@@ -16,7 +16,7 @@ public class BinarySearch {
         int lo = 0;
         int hi = a.length -1;
         while(lo <= hi){
-            int mid = (hi+lo) / 2;
+            int mid = lo + (hi - lo) / 2;
             if (key < a[mid]){
                 hi = mid -1;
             }
