@@ -1,5 +1,6 @@
 package me.suiyueyu.algs4.sec1.exercise.ex_1_3;
 
+import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 
 /**
@@ -9,12 +10,24 @@ import java.util.Iterator;
  *     Stack<Item> t = new Stack<Item>(s)
  * </pre>
  * 得到的t向栈s的一个新的独立副本。
+ *
+ * 1.3.47 可连接的队列，栈或steque。 为队列，栈或者steque(请见练习1.3.22 )添加一个能够(破坏性的)
+ * 连接两个同类对象的额外操作 catenation
+ *
+ * 1.3.50 快速出错的迭代器。修改Stack的迭代器代码，确保一旦用例在迭代器中(通过push()或pop())操作修改集合数据就抛出一个
+ * java.util.ConcurrentModificationException 的异常。
+ * 解答：用一个结束期记录push()和pop()操作的次数。在创建迭代器时，将该值记录到Iterator的一个实例变量中。
+ * 在每次调用hasNext() 和 next()之前，检查该值是否发生了变化，如果变化则抛出异常
+ *
  */
 public class Stack<Item> implements Iterable<Item> {
     private Node first;
     private int N;
 
-    private class Node {
+    // 1.3.50 pushAndpopCounter
+    private int pushAndpopCounter;
+
+    public class Node {
         Item item;
         Node next;
     }
@@ -30,6 +43,8 @@ public class Stack<Item> implements Iterable<Item> {
         }
         for (Item item : stack) {
             this.push(item);
+
+            pushAndpopCounter++;
         }
     }
 
@@ -48,6 +63,8 @@ public class Stack<Item> implements Iterable<Item> {
         first.item = item;
         first.next = oldItem;
         N++;
+
+        pushAndpopCounter++;
     }
 
     public Item pop() {
@@ -55,6 +72,9 @@ public class Stack<Item> implements Iterable<Item> {
         Item item = first.item;
         first = first.next;
         N--;
+
+        pushAndpopCounter++;
+
         return item;
     }
 
@@ -90,22 +110,54 @@ public class Stack<Item> implements Iterable<Item> {
         }
     }
 
+    /**
+     * 1.3.47 可连接的队列，栈或steque。 为队列，栈或者steque(请见练习1.3.22 )添加一个能够(破坏性的)
+     * 连接两个同类对象的额外操作 catenation
+     *
+     * @param s
+     */
+    public void catenation(Stack<Item> s) {
+        Stack<Item> tmp = new Stack<Item>();
+        for (Item item : s) {
+            tmp.push(item);
+        }
+        for (Item item : tmp) {
+            this.push(item);
+
+            pushAndpopCounter++;
+        }
+    }
 
     public Iterator<Item> iterator() {
         return new ListIterator();
     }
 
     private class ListIterator implements Iterator<Item> {
+
         private Node current = first;
+        private int expectedPushAndPopCounter = pushAndpopCounter;
 
         public boolean hasNext() {
             return current != null;
         }
 
         public Item next() {
+            if (!checkPushAndPopCounter()) {
+                throw new ConcurrentModificationException();
+            }
             Item item = current.item;
             current = current.next;
             return item;
+        }
+
+        /**
+         * Fail-Fast(快速失败)机制
+         *
+         * @return
+         * @see <a href="http://blog.csdn.net/lcore/article/details/12083951">Fail-Fast</a>
+         */
+        private boolean checkPushAndPopCounter() {
+            return expectedPushAndPopCounter == pushAndpopCounter;
         }
     }
 
@@ -128,5 +180,22 @@ public class Stack<Item> implements Iterable<Item> {
         stack2.push("4");
 
         System.out.println(stack1.equals(stack2));
+
+        stack1.catenation(stack2);
+
+        for (String str : stack1) {
+            System.out.print(str + " ");
+        }
+        System.out.println();
+
+        // check for new Iterator
+        Iterator<String> iterator = stack1.iterator();
+        while (iterator.hasNext()) {
+            stack1.push("1");
+            System.out.println(iterator.next());
+        }
+
+
+
     }
 }

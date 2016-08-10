@@ -64,26 +64,28 @@ public class StackGeneralizable {
 
     /**
      * 这里限制了输入是有序的数列
-     *
+     * 要不然input中可能有重复的元素，这样就不好判断了
      * @param output
-     * @return todo 结果不对
+     * @return +号代表压栈，-号代表出栈
      */
     public static boolean isOutputGeneralizable(String[] input, String[] output) {
         Stack<String> stack = new Stack<>();
 
         int j = 0;
-        stack.push(input[0]);
-        System.out.print("+ ");
-        for (int i = 1; i < input.length; ) {
+
+        for (int i = 0; i < input.length; i++) {
 
             // 如果栈顶是我们想要的，就弹出
             while (output[j].equals(stack.peek())) {
                 j++;
                 stack.pop();
                 System.out.print("- ");
+                if (j == output.length) {
+                    return true;
+                }
             }
 
-            stack.push(input[i++]);
+            stack.push(input[i]);
             System.out.print("+ ");
         }
 
@@ -95,7 +97,6 @@ public class StackGeneralizable {
                 return true;
             }
         }
-
         return false;
     }
 
@@ -113,8 +114,9 @@ public class StackGeneralizable {
         String output = "4 3 2 1 0 9 8 7 6 5";
         String[] outputs = output.split("\\s+");
 
-        String output2 = "2 5 6 7 4 8 9 3 1 0";
-        String[] outputs2 = output.split("\\s+");
+//        String output2 = "2 1 4 3 6 5 8 7 9 0";
+        String output2 = "0 1 2 3 4 5 6 7 8 9";
+        String[] outputs2 = output2.split("\\s+");
 
 //        System.out.println(isOutputGeneralizable(inputs, outputs));
 

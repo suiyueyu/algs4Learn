@@ -10,6 +10,9 @@ import java.util.Iterator;
  * </pre>
  * 得到的r指向队列q的一个新的独立的副本。可以对q或r进行任意入列或出列操作但他们不会互相影响
  * 提示：从q中去除所有的元素再将他们插入q和r
+ *
+ * 1.3.47 可连接的队列，栈或steque。 为队列，栈或者steque(请见练习1.3.22 )添加一个能够(破坏性的)
+ * 连接两个同类对象的额外操作 catenation
  */
 
 public class Queue<Item> implements Iterable<Item> {
@@ -88,6 +91,23 @@ public class Queue<Item> implements Iterable<Item> {
         }
         N--;
         return item;
+    }
+
+    /**
+     * 1.3.47 可连接的队列，栈或steque。 为队列，栈或者steque(请见练习1.3.22 )添加一个能够(破坏性的)
+     * 连接两个同类对象的额外操作 catenation
+     * 题目提到破坏性的，那么应该是破坏了this吧
+     * 如果是static的方法，接受两个参数，那么就返回了一个新的，没有破坏的意思吧?
+     * <p>
+     * 成链（catenation）是指同一种化学元素的原子经由连续的共价键互相连接形成长链状的分子。
+     * 这单词...
+     *
+     * @param q
+     */
+    public void catenation(Queue<Item> q) {
+        for (Item item : q) {
+            this.enqueue(item);
+        }
     }
 
     public Iterator<Item> iterator() {
