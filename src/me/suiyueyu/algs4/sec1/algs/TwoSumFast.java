@@ -3,7 +3,6 @@ package me.suiyueyu.algs4.sec1.algs;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
-import me.suiyueyu.algs4.sec1.BinarySearch;
 
 import java.util.Arrays;
 

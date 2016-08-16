@@ -1,11 +1,6 @@
 
 package me.suiyueyu.algs4.sec1.exercise.ex_1_4;
 
-import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
-import me.suiyueyu.algs4.sec1.BinarySearch;
-
 import java.util.Arrays;
 
 

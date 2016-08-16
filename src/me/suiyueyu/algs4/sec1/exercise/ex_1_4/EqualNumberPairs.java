@@ -1,7 +1,5 @@
 package me.suiyueyu.algs4.sec1.exercise.ex_1_4;
 
-import me.suiyueyu.algs4.sec1.BinarySearch;
-
 import java.util.Arrays;
 
 /**
