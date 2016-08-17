@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a13b02d-c550-4977-b0c4-aff3fc46bbf8" name="Default" comment="20160816 ex_2_1 &#10;昨天没提上去? 插入排序 选择排序">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Merge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/MergeBU.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1_test/ShellSortTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortWithoutStaticAuxArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/FasterMergeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/MergeSortWithoutStaticAuxArrayTest.java" />
+    <list default="true" id="2a13b02d-c550-4977-b0c4-aff3fc46bbf8" name="Default" comment="20160816 ex_2_2&#10;归并排序">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/ShellSort.java" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/ShellSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java" />
     </list>
     <ignored path="algs4Learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,10 +54,10 @@
         <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/MergeBU.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,10 +67,10 @@
         <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortWithoutStaticAuxArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="48" selection-end-column="5" />
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
               <folding>
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,10 +80,11 @@
         <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="580">
-              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
               <folding>
-                <element signature="e#1516#1517#0" expanded="true" />
-                <element signature="e#1557#1558#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1579#1580#0" expanded="true" />
+                <marker date="1471445038620" expanded="true" signature="49:230" ph="/**...*/" />
               </folding>
             </state>
           </provider>
@@ -100,13 +93,13 @@
       <file leaf-file-name="MergeSortImprovements.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+            <state relative-caret-position="-673">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
-                <element signature="e#2074#2075#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-                <element signature="e#3574#3575#0" expanded="true" />
-                <element signature="e#3615#3616#0" expanded="true" />
+                <element signature="e#2102#2103#0" expanded="true" />
+                <element signature="e#2143#2144#0" expanded="true" />
+                <element signature="e#3634#3635#0" expanded="true" />
+                <element signature="e#3675#3676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,10 +238,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1684" />
-    <option name="height" value="1026" />
+    <option name="x" value="833" />
+    <option name="width" value="854" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -951,7 +943,7 @@
       <workItem from="1471260514353" duration="9762000" />
       <workItem from="1471332329634" duration="6321000" />
       <workItem from="1471349572303" duration="8615000" />
-      <workItem from="1471401246437" duration="20754000" />
+      <workItem from="1471401246437" duration="20965000" />
     </task>
     <task id="LOCAL-00001" summary="20160307 好久没写了...每天写一点">
       <created>1457352993417</created>
@@ -1121,7 +1113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471358145812</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="20160816 ex_2_2&#10;归并排序">
+      <created>1471445047793</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1471445047793</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1157,7 +1156,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418528000" />
+    <option name="totallyTimeSpent" value="418739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1169,7 +1168,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1684" height="1026" extended-state="0" />
+    <frame x="833" y="0" width="854" height="1017" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1179,8 +1178,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32586786" sideWeight="0.50733495" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2889138" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31466964" sideWeight="0.4896088" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29185522" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31447965" sideWeight="0.4896088" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1268,7 +1267,8 @@
     <MESSAGE value="20160810 ex_1_4 算法分析&#10;1.4.17 我只能说，有了测试以后，我的代码真是脆弱" />
     <MESSAGE value="20160815 sec2 排序&#10;太慢了，这么多天没提交了" />
     <MESSAGE value="20160816 ex_2_1 &#10;昨天没提上去? 插入排序 选择排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="20160816 ex_2_1 &#10;昨天没提上去? 插入排序 选择排序" />
+    <MESSAGE value="20160816 ex_2_2&#10;归并排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="20160816 ex_2_2&#10;归并排序" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1556,8 +1556,8 @@
         <state relative-caret-position="406">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <element signature="e#1020#1021#0" expanded="false" />
-            <element signature="e#1061#1062#0" expanded="false" />
+            <element signature="e#1036#1037#0" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1607,10 +1607,10 @@
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/MergeBU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1618,10 +1618,10 @@
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortWithoutStaticAuxArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="48" selection-end-column="5" />
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
           <folding>
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1656,10 +1656,11 @@
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
-          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
           <folding>
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <marker date="1471445038620" expanded="true" signature="49:230" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -1682,13 +1683,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        <state relative-caret-position="-673">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2115#2116#0" expanded="true" />
-            <element signature="e#3574#3575#0" expanded="true" />
-            <element signature="e#3615#3616#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#3634#3635#0" expanded="true" />
+            <element signature="e#3675#3676#0" expanded="true" />
           </folding>
         </state>
       </provider>

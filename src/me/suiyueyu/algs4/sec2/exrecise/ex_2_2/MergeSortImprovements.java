@@ -22,7 +22,7 @@ public class MergeSortImprovements {
     public static void sort(Comparable[] a) {
         // 这里的复制看来是少不了了
         Comparable[] aux = a.clone();
-        sort(a, aux, 0, a.length - 1);
+        sort(aux, a, 0, a.length - 1);
     }
 
     public static void sort(Comparable[] src, Comparable[] dst, int lo, int hi) {
