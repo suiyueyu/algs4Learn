@@ -1,5 +1,7 @@
 package me.suiyueyu.algs4.sec2.exrecise.ex_2_1;
 
+import edu.princeton.cs.algs4.StdRandom;
+
 /**
  * Created by yzcc on 2016/8/16.
  * 2.1.11 将希尔排序中实时计算递增序列改为预先计算并存储在一个数组中
@@ -20,19 +22,44 @@ public class ShellSort {
         }
     }
 
-    public static void sort(Comparable[] a, canGeneratShellSequence c) {
-        int N = a.length;
+    private static int[] generateShellSequence(int N, canGeneratShellSequence c) {
+
         int sequenceLen = 0;
-        while (c.hasNext(N)) {
+
+        int curr = c.next();
+        while (curr < N) {
             sequenceLen++;
+            curr = c.next();
         }
+//        System.out.println("seqlen :" + sequenceLen);
 
         c.clear();
 
         int[] sequence = new int[sequenceLen];
-        int i = 0;
-        while (c.hasNext(N)) {
-            sequence[i++] = c.next();
+        sequence[0] = c.next();
+        for (int i = 1; i < sequenceLen; i++) {
+            sequence[i] = c.next();
+        }
+//
+//        for(int i : sequence){
+//            System.out.print(i + " ");
+//        }
+//        System.out.println();
+
+        return sequence;
+    }
+
+    public static void sort(Comparable[] a) {
+        final int[] shellSequence = generateShellSequence(a.length, new DifficultGenerateShellSequence());
+
+        for (int k = shellSequence.length - 1; k >= 0; k--) {
+            int h = shellSequence[k];
+
+            for (int i = h; i < a.length; i++) {
+                for (int j = i; j >= h && less(a[j], a[j - h]); j -= h) {
+                    exch(a, j, j - h);
+                }
+            }
         }
 
     }
@@ -52,34 +79,21 @@ public class ShellSort {
     }
 
     public static void main(String[] args) {
-        SingleGenerateShellSequence s = new SingleGenerateShellSequence();
-        while (s.hasNext(1000)) {
-            // TODO: 2016/8/16 生成的不对
-            System.out.println(s.next());
-        }
     }
 }
 
 interface canGeneratShellSequence {
     int next();
 
-    boolean hasNext(int upperBound);
-
     void clear();
 }
 
 class SingleGenerateShellSequence implements canGeneratShellSequence {
     private int h = 0;
-    private int last = 1;
 
     public int next() {
         h = h * 3 + 1;
-        last = h;
         return h;
-    }
-
-    public boolean hasNext(int upperBound) {
-        return last < upperBound;
     }
 
     @Override
@@ -89,7 +103,7 @@ class SingleGenerateShellSequence implements canGeneratShellSequence {
 }
 
 class DifficultGenerateShellSequence implements canGeneratShellSequence {
-    private int i = 1;
+    private int i = 0;
     private int j = 2;
     private int curr;
 
@@ -113,13 +127,8 @@ class DifficultGenerateShellSequence implements canGeneratShellSequence {
     }
 
     @Override
-    public boolean hasNext(int upperBound) {
-        return curr < upperBound;
-    }
-
-    @Override
     public void clear() {
-        i = 1;
+        i = 0;
         j = 2;
     }
 }
