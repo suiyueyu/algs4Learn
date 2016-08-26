@@ -32,21 +32,23 @@ public class MergeSortImprovements {
         // 加快小数组的排序速度
         if (hi - lo + 1 < SMALL_ARRAY_SIZE) {
             Insertion.sort(dst, lo, hi);
+            return;
         }
 
+        // improve: dst中的是有序的
         int mid = lo + (hi - lo) / 2;
         sort(dst, src, lo, mid);
         sort(dst, src, mid + 1, hi);
 
         // 检测数组是否已经有序
-        if (!less(src[mid], src[mid + 1])) {
+        if (!less(src[mid + 1], src[mid])) {
 //            for (int i = lo; i <= hi; i++){
 //                dst[i] = src[i];
 //            }
 //            return;
 
             // 据说这样比上面的快
-            // 这个System.arraycopy 是一个native方法，简单说，是java通过JNI(java native interface)调用其他语言(c++)的描述
+            // 这个System.arraycopy 是一个native方法，简单说，是java通过JNI(java native interface)调用其他语言(例如c++)的描述
             // @see <a href="http://stackoverflow.com/questions/6101311/what-is-the-native-keyword-in-java-for"></a>
             // http://blog.csdn.net/xw13106209/article/details/6989415
             System.arraycopy(src, lo, dst, lo, hi - lo + 1);

@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a13b02d-c550-4977-b0c4-aff3fc46bbf8" name="Default" comment="20160816 ex_2_2&#10;归并排序">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/BasicFIleOutput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/BinaryFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/BufferedInputFIle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/FIleOutputShortcut.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/FormattedMemoryInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/JavaIOLearn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/MemoryInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/StoringAndRecoveringData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/TestEOF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/TextFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaIOLearn/UsingRandomAccessFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/SublinearExtraSpaceMergeSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/MergeSortImprovementsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/SortTestUseCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Generic/ArrayMaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Generic/ClassTypeCapture.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/MyFirstAnnotation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/StringReflection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/suiyueyu/algs4/Main.java" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Selection.java" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Selection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java" afterPath="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java" />
     </list>
     <ignored path="algs4Learn.iws" />
@@ -38,11 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SortTransactions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/SortTransactions.java">
+      <file leaf-file-name="FIleOutputShortcut.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/FIleOutputShortcut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="584">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,87 +71,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeBU.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/MergeBU.java">
+      <file leaf-file-name="StoringAndRecoveringData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/StoringAndRecoveringData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-              <folding>
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSortWithoutStaticAuxArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortWithoutStaticAuxArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="e#1330#1331#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FasterMerge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-              <folding>
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1579#1580#0" expanded="true" />
-                <marker date="1471445038620" expanded="true" signature="49:230" ph="/**...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSortImprovements.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-673">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="e#2102#2103#0" expanded="true" />
-                <element signature="e#2143#2144#0" expanded="true" />
-                <element signature="e#3634#3635#0" expanded="true" />
-                <element signature="e#3675#3676#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Example.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="33">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FasterMergeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/FasterMergeTest.java">
+      <file leaf-file-name="UsingRandomAccessFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/UsingRandomAccessFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSortWithoutStaticAuxArrayTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/MergeSortWithoutStaticAuxArrayTest.java">
+      <file leaf-file-name="TextFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/TextFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="39" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="232">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryFile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/BinaryFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +126,7 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -167,25 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/EqualNumberPairs.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/BinarySearch.java" />
-        <option value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/ExBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/CommonArrayElements.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4_test/ExBinarySearchTest.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/FourSum.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/TwoSumFast.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4_test/Faster3sumTest.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/Faster3sum.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/ClosestPair.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4_test/ClosestPairTest.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4_test/FarthestPairTest.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/FarthestPair.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4_test/LocalMinimumTest.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/UF.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/Findable.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/UnionFindQuickFind.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/UnionFindQuickUnion.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/WeightedQuickUnionUF.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/LocalMinimum.java" />
@@ -194,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_5/PathCompressionWeightedQuickUnion.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Sortable.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Example.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Selection.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/SortCompare.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Shell.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/SortAlgs.java" />
@@ -208,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/InsertionSortWithSentinel.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1_test/InsertionSortTest.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/Main.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1_test/ShellSortTest.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Merge.java" />
@@ -216,8 +180,29 @@
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/MergeSortWithoutStaticAuxArrayTest.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortWithoutStaticAuxArray.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/FasterMergeTest.java" />
-        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java" />
         <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/MergeSortImprovementsTest.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/SortTestUseCase.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/SublinearExtraSpace.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/SublinearExtraSpaceMergeSort.java" />
+        <option value="$PROJECT_DIR$/src/test/MyFirstAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Selection.java" />
+        <option value="$PROJECT_DIR$/src/test/Generic/ClassTypeCapture.java" />
+        <option value="$PROJECT_DIR$/src/test/Generic/ArrayMaker.java" />
+        <option value="$PROJECT_DIR$/src/me/suiyueyu/algs4/Main.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/JavaIOLearn.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/BufferedInputFIle.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/BufferedInputFile.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/MemoryInput.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/FormattedMemoryInput.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/TestEOF.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/BasicFIleOutput.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/FIleOutputShortcut.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/StoringAndRecoveringData.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/UsingRandomAccessFile.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/TextFile.java" />
+        <option value="$PROJECT_DIR$/src/JavaIOLearn/BinaryFile.java" />
       </list>
     </option>
   </component>
@@ -267,14 +252,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane />
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +289,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="998" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="SearchEverywhereHistoryKey" value="Trans&#9;PSI&#9;JAVA://me.suiyueyu.algs4.sec1.exercise.Transaction&#10;Binary&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec1/BinarySearch.java&#10;equals&#9;PSI&#9;JAVA://me.suiyueyu.algs4.sec1.exercise.Rational#equals&#10;insertBefo&#9;PSI&#9;JAVA://me.suiyueyu.algs4.sec1.exercise.ex_1_3.DoubleNodeList#insertBefore&#10;bread&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec4/BreadthFristPaths.java&#10;3_1_2&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec3/exercise/ArrayST_3_1_2.java&#10;ex_3_1_2&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec3/exercise/EX_3_1_12.java&#10;binar&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec3/BinarySearchST_algs_3_2.java&#10;bin&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec3/BinarySearchST_algs_3_2.java" />
+    <property name="SearchEverywhereHistoryKey" value="trans&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/Transaction.java&#10;Trans&#9;PSI&#9;JAVA://me.suiyueyu.algs4.sec1.exercise.Transaction&#10;Binary&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec1/BinarySearch.java&#10;equals&#9;PSI&#9;JAVA://me.suiyueyu.algs4.sec1.exercise.Rational#equals&#10;insertBefo&#9;PSI&#9;JAVA://me.suiyueyu.algs4.sec1.exercise.ex_1_3.DoubleNodeList#insertBefore&#10;bread&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec4/BreadthFristPaths.java&#10;3_1_2&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec3/exercise/ArrayST_3_1_2.java&#10;ex_3_1_2&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec3/exercise/EX_3_1_12.java&#10;binar&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec3/BinarySearchST_algs_3_2.java&#10;bin&#9;FILE&#9;file://G:/SVN/algs4Learn/src/me/suiyueyu/algs4/sec3/BinarySearchST_algs_3_2.java" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
@@ -315,106 +300,28 @@
       <recent name="me.suiyueyu.algs4.sec1.exercise.ex_1_4_test" />
       <recent name="me.suiyueyu.algs4.sec1.exercise.ex_1_3" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-      <recent name="java.lang.Object" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="me.suiyueyu.algs4.sec1.algs" />
       <recent name="me.suiyueyu.algs4.sec1.exercise.ex_1_4" />
       <recent name="me.suiyueyu.algs4.sec1.exercise.ex_1_3" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="java.lang.Object" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\SVN\algs4Learn\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortImprovements">
-    <configuration default="false" name="ShellSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.UsingRandomAccessFile">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_1_test.*" />
+          <option name="PATTERN" value="me.suiyueyu.algs4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="algs4Learn" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_1_test" />
-      <option name="MAIN_CLASS_NAME" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_1_test.ShellSortTest" />
-      <option name="METHOD_NAME" value="sort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MergeSortWithoutStaticAuxArrayTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="algs4Learn" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2_test" />
-      <option name="MAIN_CLASS_NAME" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2_test.MergeSortWithoutStaticAuxArrayTest" />
-      <option name="METHOD_NAME" value="sort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FasterMergeTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="algs4Learn" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2_test" />
-      <option name="MAIN_CLASS_NAME" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2_test.FasterMergeTest" />
-      <option name="METHOD_NAME" value="sort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2.Insertion" />
+      <option name="MAIN_CLASS_NAME" value="me.suiyueyu.algs4.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -427,14 +334,74 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MergeSortImprovements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ArrayMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2.*" />
+          <option name="PATTERN" value="test.Generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="me.suiyueyu.algs4.sec2.exrecise.ex_2_2.MergeSortImprovements" />
+      <option name="MAIN_CLASS_NAME" value="test.Generic.ArrayMaker" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algs4Learn" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BufferedInputFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JavaIOLearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="JavaIOLearn.BufferedInputFile" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algs4Learn" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StoringAndRecoveringData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JavaIOLearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="JavaIOLearn.StoringAndRecoveringData" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algs4Learn" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UsingRandomAccessFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JavaIOLearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="JavaIOLearn.UsingRandomAccessFile" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -849,19 +816,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ShellSortTest.sort" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSortWithoutStaticAuxArrayTest.sort" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FasterMergeTest.sort" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Insertion" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MergeSortImprovements" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayMaker" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BufferedInputFile" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StoringAndRecoveringData" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UsingRandomAccessFile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MergeSortImprovements" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Insertion" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FasterMergeTest.sort" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MergeSortWithoutStaticAuxArrayTest.sort" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShellSortTest.sort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UsingRandomAccessFile" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StoringAndRecoveringData" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BufferedInputFile" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -943,7 +910,13 @@
       <workItem from="1471260514353" duration="9762000" />
       <workItem from="1471332329634" duration="6321000" />
       <workItem from="1471349572303" duration="8615000" />
-      <workItem from="1471401246437" duration="20965000" />
+      <workItem from="1471401246437" duration="21016000" />
+      <workItem from="1471487056162" duration="10535000" />
+      <workItem from="1471575297786" duration="11809000" />
+      <workItem from="1471749200474" duration="2240000" />
+      <workItem from="1471939667176" duration="1192000" />
+      <workItem from="1472046861800" duration="678000" />
+      <workItem from="1472196701919" duration="11496000" />
     </task>
     <task id="LOCAL-00001" summary="20160307 好久没写了...每天写一点">
       <created>1457352993417</created>
@@ -1120,25 +1093,17 @@
       <option name="project" value="LOCAL" />
       <updated>1471445047793</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="20160816 ex_2_2&#10;归并排序">
+      <created>1471445244229</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1471445244229</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FasterMergeTest_sort - 2016.08.17 at 17h 19m 38s.xml">
-      <configuration name="FasterMergeTest.sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FasterMergeTest_sort - 2016.08.17 at 17h 19m 47s.xml">
-      <configuration name="FasterMergeTest.sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FasterMergeTest_sort - 2016.08.17 at 17h 20m 03s.xml">
-      <configuration name="FasterMergeTest.sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FasterMergeTest_sort - 2016.08.17 at 17h 20m 17s.xml">
-      <configuration name="FasterMergeTest.sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FasterMergeTest_sort - 2016.08.17 at 17h 21m 40s.xml">
-      <configuration name="FasterMergeTest.sort" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FasterMergeTest_sort - 2016.08.17 at 17h 23m 04s.xml">
       <configuration name="FasterMergeTest.sort" configurationId="JUnit" />
     </history-entry>
@@ -1148,6 +1113,21 @@
     <history-entry file="FasterMergeTest_sort - 2016.08.17 at 17h 26m 36s.xml">
       <configuration name="FasterMergeTest.sort" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MergeSortImprovementsTest - 2016.08.18 at 11h 14m 19s.xml">
+      <configuration name="MergeSortImprovementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSortImprovementsTest_sort - 2016.08.18 at 11h 10m 08s.xml">
+      <configuration name="MergeSortImprovementsTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSortImprovementsTest_sort - 2016.08.18 at 11h 10m 35s.xml">
+      <configuration name="MergeSortImprovementsTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSortImprovementsTest_sort2 - 2016.08.18 at 11h 11m 12s.xml">
+      <configuration name="MergeSortImprovementsTest.sort2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSortImprovementsTest_sort2 - 2016.08.18 at 11h 11m 26s.xml">
+      <configuration name="MergeSortImprovementsTest.sort2" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MergeSortWithoutStaticAuxArrayTest_sort - 2016.08.17 at 16h 03m 35s.xml">
       <configuration name="MergeSortWithoutStaticAuxArrayTest.sort" configurationId="JUnit" />
     </history-entry>
@@ -1156,7 +1136,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418739000" />
+    <option name="totallyTimeSpent" value="456740000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1178,12 +1158,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32586786" sideWeight="0.50733495" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29185522" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31447965" sideWeight="0.4896088" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28846154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3167421" sideWeight="0.4896088" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47355163" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39168766" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.49285713" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1223,10 +1203,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2889138" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31561086" sideWeight="0.4896088" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3167421" sideWeight="0.4896088" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47355163" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39168766" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.49285713" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17787287" sideWeight="0.50643086" order="3" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1273,10 +1253,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/SublinearExtraSpaceMergeSort.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="95" />
+      <option name="time" value="101" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1285,225 +1273,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/Faster3sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1943">
-          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Ignore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4_test/LocalMinimumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/UF_alg_1_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/UF_alg_1_5_quick_union.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/Findable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/UF_alg_1_5_quick_find.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/UnionFindQuickFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/WeightedQuickUnionUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/UnionFindQuickUnion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="42" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_5/PathCompressionQuickUnion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_4/LocalMinimum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="144" column="52" selection-start-line="144" selection-start-column="52" selection-end-line="144" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/algs/UF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_5_test/PathCompressionWeightedQuickUnionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_5/PathCompressionWeightedQuickUnion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Sortable.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/algs4Learn/me/suiyueyu/algs4/sec2/algs/SortCompare.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/Ex_2_4_22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/DualPivotQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="143" column="28" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="false" />
-            <element signature="e#5098#5099#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="1009" column="74" selection-start-line="1009" selection-start-column="74" selection-end-line="1009" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/Certification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/SortAlgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Selection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex_1_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20753">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/Ex_1_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Shell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/QueueWithThreeStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec1/exercise/ex_1_3/TwoStacksWithaDeque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
@@ -1511,25 +1280,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1544,10 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
-          <folding>
-            <element signature="e#3327#3328#0" expanded="false" />
-            <element signature="e#3369#3370#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1555,10 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#1036#1037#0" expanded="false" />
-            <element signature="e#1077#1078#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1566,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1574,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1582,17 +1326,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/SortTransactions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
+        <state relative-caret-position="928">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1600,37 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/MergeBU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortWithoutStaticAuxArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/MergeSortWithoutStaticAuxArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="39" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1638,38 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#46394#46395#0" expanded="false" />
-            <element signature="e#46458#46459#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/FasterMergeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-          <folding>
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
-            <marker date="1471445038620" expanded="true" signature="49:230" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1677,19 +1354,310 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8439">
           <caret line="408" column="71" selection-start-line="408" selection-start-column="71" selection-end-line="408" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortImprovements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-673">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="203">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/FasterMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/MergeSortWithoutStaticAuxArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/MergeBU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/SortTestUseCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/MergeSortImprovementsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/FasterMergeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2_test/MergeSortWithoutStaticAuxArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_2/SublinearExtraSpaceMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MyFirstAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/StdOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="287" column="23" selection-start-line="287" selection-start-column="23" selection-end-line="287" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/exrecise/ex_2_1/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/rt.jar!/sun/nio/cs/Surrogate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-988">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/sec2/algs/Selection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2143#2144#0" expanded="true" />
-            <element signature="e#3634#3635#0" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/RandomAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4205">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2068">
+          <caret line="221" column="17" selection-start-line="221" selection-start-column="17" selection-end-line="221" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/StringReflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Generic.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Generic/ArrayMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Generic/ClassTypeCapture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/suiyueyu/algs4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/JavaIOLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/BufferedInputFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/io/FilterInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/BasicFIleOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/TestEOF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/FormattedMemoryInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/MemoryInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/FIleOutputShortcut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/StoringAndRecoveringData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="315" column="0" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/UsingRandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/TextFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaIOLearn/BinaryFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
