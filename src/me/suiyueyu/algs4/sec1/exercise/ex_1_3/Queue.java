@@ -96,9 +96,10 @@ public class Queue<Item> implements Iterable<Item> {
     /**
      * 1.3.47 可连接的队列，栈或steque。 为队列，栈或者steque(请见练习1.3.22 )添加一个能够(破坏性的)
      * 连接两个同类对象的额外操作 catenation
+     *
      * 题目提到破坏性的，那么应该是破坏了this吧
      * 如果是static的方法，接受两个参数，那么就返回了一个新的，没有破坏的意思吧?
-     * <p>
+     *
      * 成链（catenation）是指同一种化学元素的原子经由连续的共价键互相连接形成长链状的分子。
      * 这单词...
      *

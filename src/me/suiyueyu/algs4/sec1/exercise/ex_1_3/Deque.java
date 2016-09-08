@@ -6,9 +6,9 @@ import java.util.Iterator;
  * Created by yzcc on 2016/8/6.
  * 1.3.33 一个双向队列(或者成为deque)和栈或队列类似，但它同时支持在两端添加或删除元素。
  * Deque能够存储一组元素并支持表1.3.9中的API
- * <p>
+ *
  * public class Deque<Item> implements Iterable(Item)
- * <p>
+ *
  * Deque() 创建空双向队列
  * boolean isEmpty() 双向队列是否为空
  * int size() 双向队列中的元素数量
@@ -16,10 +16,10 @@ import java.util.Iterator;
  * void pushRight(Item item) 向右段添加一个新元素
  * Item popLeft() 从左端删除一个元素
  * Item popRight() 从右端删除一个元素
- * <p>
+ *
  * 编写一个使用双向链表实现这份API的Deque类，
  * 以及一个使用动态数组调整实现这份API的 ResizingArrayDeque 类
- * <p>
+ *
  * 我突然在想，是不是应该内部直接放一个DoubleNodeList的对象
  */
 public class Deque<Item> implements Iterable<Item> {

@@ -65,4 +65,21 @@ public class Date {
         }
         return true;
     }
+
+    /**
+     * hashCode的实现，感觉还是有问题
+     *
+     * @return
+     */
+    public int hashCode() {
+        int hash = 17;
+
+        int R = 31;
+        hash = R * hash + year;
+        hash = R * hash + month;
+        hash = R * hash + day;
+
+        return hash;
+
+    }
 }

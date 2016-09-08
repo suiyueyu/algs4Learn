@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by yzcc on 2015/10/31.
  */
-public class SequentialSearchST_algs_3_1<Key extends Comparable<Key>, Value> {
+public class SequentialSearchST_algs_3_1<Key, Value> {
 
     private Node first;
 
@@ -26,7 +26,7 @@ public class SequentialSearchST_algs_3_1<Key extends Comparable<Key>, Value> {
     }
 
     public SequentialSearchST_algs_3_1() {
-        super();
+
     }
 
     public void put(Key key, Value val) {
@@ -65,11 +65,12 @@ public class SequentialSearchST_algs_3_1<Key extends Comparable<Key>, Value> {
         if (isEmpty()) {
             return false;
         } else {
+
             // 删除的是头结点
             if (first.key.equals(key)) {
-                Node temp = first;
+//                Node temp = first;
                 first = first.next;
-                temp = null;
+//                temp = null;
                 return true;
             } else {
                 // 要删除的节点不是头结点

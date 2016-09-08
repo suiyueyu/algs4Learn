@@ -228,6 +228,6 @@ public class BST_algs_3_3<Key extends Comparable<Key>, Value> {
             keys(x.right, queue, lo, hi);
         }
     }
-    // TODO: max(), deleteMax()
+
 
 }

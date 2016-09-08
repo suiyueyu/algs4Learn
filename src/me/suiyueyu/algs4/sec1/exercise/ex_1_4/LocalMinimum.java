@@ -49,7 +49,7 @@ public class LocalMinimum {
      * <p>
      * we'll use the fact that a local minimum will exist in this half of the array
      * as a justification for throwing away one half of the array.
-     * <p>
+     * </p>
      * 1. If there is just one array element, it's a local minimum.
      * 2. If there are two array elements, check each. One must be a local minimum.
      * 3. Otherwise, look at the middle element of the array. If it's a local minimum,
@@ -61,7 +61,7 @@ public class LocalMinimum {
      * T(n) ≤ T(n / 2) + 1
      * 这原理我解释不清楚，不过可以画一个sin()函数看下效果，局部最小，的确在某个区域的中心
      * 要不就枚举，一阶导数+二阶导数 ，递增递减一共四种，讨论下也行
-     * <p>
+     * </p>
      * 而算法的复杂度，由主定理有，是O(log n)
      */
     public static int findArrayValley(int[] a) {
