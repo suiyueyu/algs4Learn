@@ -1,19 +1,17 @@
-package me.suiyueyu.algs4.sec3;
+package me.suiyueyu.algs4.sec3.algs;
 
+import me.suiyueyu.algs4.sec1.exercise.ex_1_3.Queue;
 
-import me.suiyueyu.algs4.sec1.Queue_alg_1_3;
-
-import java.util.Queue;
 
 /**
- * Created by yzcc on 2016/3/7.
+ * Created by yzcc on 2016/9/9.
  */
-public class BinarySearchST_algs_3_2<Key extends Comparable<Key>, Value> {
+public class BinarySearchST<Key extends Comparable<Key>, Value> {
     private Key[] keys;
     private Value[] values;
     private int N;
 
-    public BinarySearchST_algs_3_2(int capacity) {
+    public BinarySearchST(int capacity) {
         keys = (Key[]) new Comparable[capacity];
         values = (Value[]) new Object[capacity];
     }
@@ -25,6 +23,7 @@ public class BinarySearchST_algs_3_2<Key extends Comparable<Key>, Value> {
     public boolean isEmpty() {
         return size() == 0;
     }
+
     public Value get(Key key) {
         if (isEmpty()) {
             return null;
@@ -120,7 +119,7 @@ public class BinarySearchST_algs_3_2<Key extends Comparable<Key>, Value> {
     }
 
     public Iterable<Key> keys(Key lo, Key hi) {
-        Queue_alg_1_3<Key> q = new Queue_alg_1_3<Key>();
+        Queue<Key> q = new Queue<Key>();
 
         for (int i = rank(lo); i < rank(hi); i++) {
             q.enqueue(keys[i]);

@@ -110,7 +110,5 @@ public class Printer {
 //        System.out.println("nihao");
         System.out.println(Thread.currentThread().getName());
 
-
-        BinaryOut
     }
 }

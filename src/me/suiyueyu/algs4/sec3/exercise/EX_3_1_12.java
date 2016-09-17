@@ -1,7 +1,7 @@
 package me.suiyueyu.algs4.sec3.exercise;
 
 import me.suiyueyu.algs4.sec1.Queue_alg_1_3;
-import me.suiyueyu.algs4.sec2.Merge_alg_2_4;
+import me.suiyueyu.algs4.sec2.algs.Merge;
 
 /**
  * Created by yzcc on 2016/4/2.
@@ -36,7 +36,7 @@ public class EX_3_1_12<Key extends Comparable<Key>, Value> {
 
     public EX_3_1_12(int capcity) {
         items = (Item[]) new Object[capcity];
-        Merge_alg_2_4.sort(items);
+        Merge.sort(items);
 
     }
 

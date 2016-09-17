@@ -4,6 +4,8 @@ package me.suiyueyu.algs4.sec2;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.Stopwatch;
+import me.suiyueyu.algs4.sec2.algs.Insertion;
+import me.suiyueyu.algs4.sec2.algs.Selection;
 
 /**
  * Created by boge on 2015/8/7.
@@ -12,23 +14,12 @@ public class SortCompare {
     public static double time(String alg,Double[] a){
         Stopwatch timer = new Stopwatch();
         if (alg.equals("Insertion")) {
-            Insertion_alg_2_2.sort(a);
+            Insertion.sort(a);
         }
         if (alg.equals("Selection")) {
-            Selection_alg_2_1.sort(a);
+            Selection.sort(a);
         }
-//        if (alg.equals("Shell")) {
-//            Insertion_alg_2_2.sort(a);
-//        }
-//        if (alg.equals("Merge")) {
-//            Insertion_alg_2_2.sort(a);
-//        }
-//        if (alg.equals("Quick")) {
-//            Insertion_alg_2_2.sort(a);
-//        }
-//        if (alg.equals("Heap")) {
-//            Insertion_alg_2_2.sort(a);
-//        }
+
         return timer.elapsedTime();
 
     }

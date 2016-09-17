@@ -1,7 +1,6 @@
 package me.suiyueyu.algs4.sec3.exercise;
 
 import me.suiyueyu.algs4.sec1.Queue_alg_1_3;
-import me.suiyueyu.algs4.sec2.Quick_alg_2_5;
 
 /**
  * Created by yzcc on 2016/3/14.
